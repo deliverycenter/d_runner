@@ -1,0 +1,34 @@
+AllCops:
+  TargetRubyVersion: 2.5.3
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'spec/dummy/**/*'
+  NewCops: enable
+
+Metrics/MethodLength:
+  Max: 20
+
+Layout/LineLength:
+  Max: 80
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: true
+  Exclude:
+    - spec/**/*
+
+Style/RegexpLiteral:
+  EnforcedStyle: slashes
+  AllowInnerSlashes: true
