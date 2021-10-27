@@ -2,7 +2,6 @@ AllCops:
   TargetRubyVersion: 2.5.3
   Exclude:
     - 'bin/**/*'
-    - 'db/**/*'
     - 'spec/dummy/**/*'
   NewCops: enable
 
