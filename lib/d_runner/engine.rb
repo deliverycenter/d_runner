@@ -1,5 +1,5 @@
-module DRunner
-  class Engine < ::Rails::Engine
-    isolate_namespace DRunner
-  end
+# frozen_string_literal: true
+
+class DRunner::Engine < ::Rails::Engine
+  isolate_namespace DRunner
 end

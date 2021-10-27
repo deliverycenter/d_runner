@@ -1,4 +1,4 @@
-module DRunner
-  module ApplicationHelper
-  end
+# frozen_string_literal: true
+
+module DRunner::ApplicationHelper
 end
