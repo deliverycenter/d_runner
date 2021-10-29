@@ -7,8 +7,8 @@ require 'd_runner/version'
 Gem::Specification.new do |s|
   s.name        = 'd_runner'
   s.version     = DRunner::VERSION
-  s.authors     = ['Harry']
-  s.email       = ['matheusthebr@gmail.com']
+  s.authors     = ['Harry', 'rodrigorfv']
+  s.email       = ['matheusthebr@gmail.com','rodrigorfv@hotmail.com']
   s.homepage    = 'https://github.com/deliverycenter/d_runner'
   s.summary     = 'Ruby tasks runner.'
   s.description = 'Ruby tasks runner.'
