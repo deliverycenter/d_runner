@@ -4,6 +4,7 @@ AllCops:
     - 'bin/**/*'
     - 'spec/dummy/**/*'
   NewCops: enable
+  SuggestExtensions: false
 
 Metrics/MethodLength:
   Max: 20

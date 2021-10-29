@@ -19,3 +19,5 @@ end
 load 'rails/tasks/statistics.rake'
 
 require 'bundler/gem_tasks'
+
+Dir.glob('spec/dummy/lib/tasks/*.rake').each { |rake| load rake }

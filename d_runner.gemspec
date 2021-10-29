@@ -7,8 +7,8 @@ require 'd_runner/version'
 Gem::Specification.new do |s|
   s.name        = 'd_runner'
   s.version     = DRunner::VERSION
-  s.authors     = ['Harry', 'rodrigorfv']
-  s.email       = ['matheusthebr@gmail.com','rodrigorfv@hotmail.com']
+  s.authors     = %w[Harry rodrigorfv]
+  s.email       = ['matheusthebr@gmail.com', 'rodrigorfv@hotmail.com']
   s.homepage    = 'https://github.com/deliverycenter/d_runner'
   s.summary     = 'Ruby tasks runner.'
   s.description = 'Ruby tasks runner.'
@@ -28,6 +28,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'simplecov'
 
   s.required_ruby_version = '>= 2.5.3'
-  s.add_dependency 'rails', '~> 5.2.0'
   s.add_dependency 'open3'
+  s.add_dependency 'rails', '~> 5.2.0'
 end
